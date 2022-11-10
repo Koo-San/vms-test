@@ -1,5 +1,5 @@
 /* import */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 /* variables */
 
@@ -15,12 +15,15 @@
 
 /*normalize*/
 
+
+
+
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* container */
@@ -46,7 +49,7 @@ nav{
 }
 
 .hamburger{
-    
+    display: none;
     position: relative;
     z-index: 1;
 
@@ -91,7 +94,6 @@ hamburger effects
 }
 
 .menu a{
-    display: none;
     color: rgb(0, 0, 0);
     margin:  0 16px;
     font-weight: 300;
@@ -154,10 +156,155 @@ hamburger effects
     margin: 0px;
 }
 
-.divisor1{
-    height: 4000px;
+
+/*servicios*/
+
+.servicios{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.redDiv{
+    background-color: var(--main_red);
+    height: 5px;
+}
+
+.difServicios{
+    display: flex;
+}
+
+.normas1{
+    margin-right: 250px;
+}
+
+.normas1 a{
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.normas2 a{
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.cMore{
+    display: flex;
+}
+
+.cMore span{
+    margin-top: 10px;
+}
+
+/* conocenos banner */
+
+.meetTT{
+    height: 300px;
+    background-image: url(../img/bannerCono.png);
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.text_meetTT{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 120px;
+}
+
+.text_meetTT h1, h2{
+    margin: 0;
+}
+
+.text_meetTT h1{
+    font-size: 1.5rem;
+    color: var(--light);
+    font-weight: 400;
+}
+
+.text_meetTT h2{
+    font-size: 1.5rem;
+    color: var(--light);
+    font-weight: 200;
 }
 
 
+.text_meetTT a{
+    color: var(--light);
+    text-decoration: none;
+    background-color: var(--main_red);
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
 
-/*servicios*/
+.trustUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--main_red);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.trustUs h1{
+    margin-bottom: 100px;
+}
+
+
+.customer_logos{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    padding: 2.5rem;
+    
+}
+
+.slide{
+    animation: animate 25s alternate linear infinite;
+    padding: 0px 20px 0 20px;
+}
+
+.customer_logos:hover .slide{
+    animation-play-state: paused;
+}
+
+@keyframes animate{
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    100%{
+        transform: translate3d(-1100px,0,0);
+    }
+}
+
+
+/* end of page */
+
+.endTY{
+    height: 800px;
+    background-image: url(../img/visitTy.png);
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.text_end{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 120px;
+}
+
+.endTY h1,h2{
+    color: var(--light);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
