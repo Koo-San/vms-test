@@ -46,7 +46,7 @@ nav{
 }
 
 .hamburger{
-    display: none;
+    
     position: relative;
     z-index: 1;
 
@@ -91,6 +91,7 @@ hamburger effects
 }
 
 .menu a{
+    display: none;
     color: rgb(0, 0, 0);
     margin:  0 16px;
     font-weight: 300;
@@ -118,7 +119,7 @@ hamburger effects
 
 .main_header{   
     position: relative;
-    background-image: url(/img/mainheader.png);
+    background-image: url(../img/mainheader.png);
     background-size: cover;
     height: 850px;
     overflow: hidden;
@@ -151,6 +152,10 @@ hamburger effects
     font-size: 4.5rem;
     font-weight: 600;
     margin: 0px;
+}
+
+.divisor1{
+    height: 4000px;
 }
 
 
