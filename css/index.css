@@ -305,6 +305,83 @@ hamburger effects
     color: var(--light);
 }
 
-*{
-    font-family: 'Poppins', sans-serif;
+.endTY h1{
+    font-size: 3.5rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.endTY h2{
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 200;
+}
+
+.text_end .email_icon{
+    margin-left: 20px;
+}
+
+.email-contact{
+    display: flex;
+    flex: row;
+}
+
+.email-contact p{
+    padding-left: 30px;
+}
+
+
+.linkedin-contact{
+    display: flex;
+    flex: row;
+}
+
+.linkedin-contact p{
+    padding-left: 10px;
+    margin-top: 33px;
+}
+
+.phone-contact{
+    display: flex;
+    flex: row;
+}
+
+.phone-contact p{
+    padding-left: 15px;
+    margin-top: 33px;
+}
+
+.user-contact{
+    display: flex;
+    flex: row;
+}
+
+.user-contact p{
+    padding-left: 35px;
+}
+
+.text_end .phone_icon{
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.text_end .linkedin_icon{
+    padding-bottom: 0;
+}
+
+.text_end .user_icon{
+    padding-left: 20px;
+}
+
+.text_end img{
+    padding-bottom: 20px;
+}
+
+.text_end p{
+    color: var(--light);
+
+}
+
+.contact-logos{
+    padding-top: 50px;
 }
